@@ -31,8 +31,7 @@ chat_history_db = mongodb.chatbot_history
 # Gemini API
 # =========================================================
 
-GEMINI_API_KEY = "
-"
+GEMINI_API_KEY =
 
 client_ai = genai.Client(
     api_key=GEMINI_API_KEY
